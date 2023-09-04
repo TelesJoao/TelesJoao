@@ -1,0 +1,8 @@
+R= 139
+L= 363E-3
+C= 19E-6
+XL= j*2*3.1416*60*L
+XC= -1/j*(2*3.1416*60*C)
+RC= R*XC/R+XC
+RL= R*XL/R+XL
+CL = XC*XL/XC+XL
